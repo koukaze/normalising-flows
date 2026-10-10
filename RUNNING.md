@@ -79,7 +79,7 @@ python -m jupyterlab
 The second notebook trains for up to 600 epochs by default. Its displayed metrics therefore belong to that notebook run, not the longer CLI example. To inspect a completed CLI run instead, set its output directory before launching Jupyter:
 
 ```bash
-M2_RESULTS_DIR=outputs/two_moons python -m jupyterlab
+FLOW_RESULTS_DIR=outputs/two_moons python -m jupyterlab
 ```
 
 ## Using a trained flow

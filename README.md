@@ -14,7 +14,7 @@ A sequence of invertible transformations maps a standard Gaussian to a two-moons
 - Sampling and density evaluation under invertible shear transformations.
 - An idealised operation count for the specified architecture.
 
-The example generates its own synthetic data. It learns a probability density over coordinates; the moon labels are used only to colour plots. Course CSVs can also be supplied externally. See [Data](docs/data.md) for the generator and input format.
+The example generates its own synthetic data. It learns a probability density over coordinates; the moon labels are used only to colour plots. External CSV datasets are also supported. See [Data](docs/data.md) for the generator and input format.
 
 ## Quick start
 
