@@ -1,0 +1,61 @@
+{
+  "data": {
+    "kind": "generated_two_moons",
+    "seed": 42,
+    "noise": 0.08,
+    "geometry": "two semicircles with independent Gaussian coordinate noise",
+    "split_sizes": {
+      "train": 800,
+      "val": 100,
+      "test": 100
+    },
+    "sha256": {
+      "train": "66143f7d83fcd0fcfcc429fa014d928c8671df32bc953d45464411039256e4b9",
+      "val": "d6eac581f971ce455fc659eb649bf07db7615f07aecc8dcecc5a2df18d0f94a6",
+      "test": "fb06d55e7fd4b3925e14ab726c83f1368583a554bc883b6ade1cb7b89b4dae13"
+    }
+  },
+  "config": {
+    "dim": 2,
+    "n_layers": 6,
+    "hidden": 64,
+    "learning_rate": 0.003,
+    "max_epochs": 4000,
+    "patience": 300,
+    "seed": 42
+  },
+  "sample_seed": 2026,
+  "n_generated_samples": 2000,
+  "epochs_run": 846,
+  "best_epoch": 546,
+  "parameter_count": 2712,
+  "nll_nats_per_point": {
+    "train": 0.9136990904808044,
+    "validation": 1.007118582725525,
+    "test": 0.9897832274436951
+  },
+  "initial_nll_nats_per_point": {
+    "train": 2.8688063621520996,
+    "validation": 2.857313871383667
+  },
+  "numerical_checks": {
+    "float32_roundtrip": {
+      "data_roundtrip_max": 1.0728836059570312e-06,
+      "latent_roundtrip_max": 3.7848949432373047e-06,
+      "data_logdet_sum_max": 4.76837158203125e-07,
+      "latent_logdet_sum_max": 3.814697265625e-06
+    },
+    "jacobian_points": 32,
+    "jacobian_dtype": "float64",
+    "finite_difference_step": 1e-05,
+    "autograd_logdet_max_abs_error": 3.552713678800501e-15,
+    "finite_difference_logdet_max_abs_error": 3.099065382095034e-08
+  },
+  "idealised_density_flops": 4303200,
+  "software": {
+    "python": "3.13.7",
+    "torch": "2.10.0",
+    "numpy": "2.3.4",
+    "torch_cpu_threads": 1
+  }
+}
