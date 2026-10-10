@@ -2,8 +2,6 @@
 
 Density estimation with affine coupling flows implemented in PyTorch.
 
-**Peijing Pang · Cambridge MPhil in Data Intensive Science · M2 Deep Learning coursework (2026)**
-
 A sequence of invertible transformations maps a standard Gaussian to a two-moons distribution, with exact likelihood evaluation through the change-of-variables formula. Composing the learned flow with a volume-preserving shear gives a family of related distributions without retraining.
 
 ![Training coordinates, learned density and generated samples](assets/density.png)

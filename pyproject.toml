@@ -3,9 +3,9 @@ requires = ["setuptools>=77"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "normalising-flows-coursework"
+name = "normalising-flows"
 version = "0.1.0"
-description = "Affine coupling flows, density estimation and shear transformations for Cambridge M2 coursework"
+description = "Affine coupling flows, density estimation and shear transformations in PyTorch"
 readme = "README.md"
 requires-python = ">=3.11"
 authors = [{name = "Peijing Pang"}]
